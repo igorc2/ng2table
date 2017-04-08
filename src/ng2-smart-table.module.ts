@@ -28,13 +28,18 @@ import { PagerComponent } from './ng2-smart-table/components/pager/pager.compone
 import { NG2_SMART_TABLE_THEAD_DIRECTIVES } from './ng2-smart-table/components/thead/thead.directives';
 import { NG2_SMART_TABLE_TBODY_DIRECTIVES } from './ng2-smart-table/components/tbody/tbody.directives';
 import { NG2_SMART_TABLE_TTITLE_DIRECTIVES } from './ng2-smart-table/components/ttitle/ttitle.directives';
+import { NG2_SMART_TABLE_TTOOLS_DIRECTIVES } from './ng2-smart-table/components/ttools/ttools.directives';
+
+import { Angular2FontawesomeModule } from '../node_modules/angular2-fontawesome/angular2-fontawesome'
 
 @NgModule({
   imports: [
     CommonModule,
     Ng2CompleterModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    Angular2FontawesomeModule
+
   ],
   declarations: [
     CellComponent,
@@ -58,6 +63,7 @@ import { NG2_SMART_TABLE_TTITLE_DIRECTIVES } from './ng2-smart-table/components/
     ...NG2_SMART_TABLE_TBODY_DIRECTIVES,
     ...NG2_SMART_TABLE_DIRECTIVES,
     ...NG2_SMART_TABLE_TTITLE_DIRECTIVES,
+    ...NG2_SMART_TABLE_TTOOLS_DIRECTIVES,
   ],
   exports: [
     ...NG2_SMART_TABLE_DIRECTIVES
