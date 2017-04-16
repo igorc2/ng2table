@@ -11,7 +11,7 @@ export class BasicExampleComponent {
   settings = {
     columns: {
       id: {
-        title: 'ID'
+        title: 'Index'
       },
       name: {
         title: 'Full Name'

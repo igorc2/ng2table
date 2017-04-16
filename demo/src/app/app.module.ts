@@ -13,7 +13,6 @@ import { routing } from './app.routing';
 // App is our top level component
 import { PagesModule } from './pages/pages.module';
 import { AppComponent } from './app.component';
-import { Angular2FontawesomeModule } from '../../../node_modules/angular2-fontawesome';
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -35,7 +34,6 @@ const APP_PROVIDERS = [
     ReactiveFormsModule,
     PagesModule,
     routing,
-    Angular2FontawesomeModule
   ],
   providers: [ // expose our Services and Providers into Angular's dependency injection
     APP_PROVIDERS

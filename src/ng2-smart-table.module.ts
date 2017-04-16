@@ -30,7 +30,6 @@ import { NG2_SMART_TABLE_TBODY_DIRECTIVES } from './ng2-smart-table/components/t
 import { NG2_SMART_TABLE_TTITLE_DIRECTIVES } from './ng2-smart-table/components/ttitle/ttitle.directives';
 import { NG2_SMART_TABLE_TTOOLS_DIRECTIVES } from './ng2-smart-table/components/ttools/ttools.directives';
 
-import { Angular2FontawesomeModule } from '../node_modules/angular2-fontawesome/angular2-fontawesome'
 
 @NgModule({
   imports: [
@@ -38,7 +37,6 @@ import { Angular2FontawesomeModule } from '../node_modules/angular2-fontawesome/
     Ng2CompleterModule,
     FormsModule,
     ReactiveFormsModule,
-    Angular2FontawesomeModule
 
   ],
   declarations: [

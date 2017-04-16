@@ -31,13 +31,15 @@
     border-right: 1px solid #252b32;
     border-bottom: 1px solid #252b32;
     transition: background .7s;
-    a{
+    i{
       color: white;
-
+      padding: 2px;
+    }
+    a{
+      color: #FFF;
     }
     a:hover{
       cursor: pointer;
-
       text-decoration: none;
     }
   }
